@@ -1,0 +1,148 @@
+/* --- GENERAL STUFF --- */
+  /* Style h tags */
+    h1, h2, h3, h4, h5, h6 {
+      color: #222222;
+    }
+  /* Colours on links */
+    a, a:link, a.author, a.username.author, a.LikeLabel, a.ReplyQuote, a.OverlayTrigger {
+      color: #306060;
+    }
+
+  /* Colours on link hovers */
+    a:hover, a:link:hover, a:visited, a:hover.username,  a:hover.username.author a:hover.author, a:hover.LikeLabel, a:hover.ReplyQuote, a:hover.OverlayTrigger {
+      color: #6FAFB5;
+    }
+
+  /* Set width of forum and align to centre */
+    .pageWidth {
+      max-width: 940px; 
+      margin: 0 auto;
+    }
+
+  /* Set background colour of main content areas */
+    #header, 
+    #content,
+    #content .pageContent,
+    .pageWidth {
+      background-color: #F5F5F5;
+      border: none;
+    }
+  
+
+  /* Navigation */  
+    /* Colour of nav links */
+      .navTabs .navTab.PopupClosed .navLink, 
+      .tabLinks > li a {
+        color: #306060;
+      }
+
+    a.crumb {
+      color: #222222;
+    }
+
+    .breadcrumb,
+    .navTabs {
+      background-color: #BBBBBB;
+      border: 1px solid #939298;
+      border-radius: 0;
+        -moz-border-radius: 5px;
+        -khtml-border-radius: 5px;
+    }
+
+    .navTabs .navTab.selected .navLink,
+    .navTabs .navTab.selected .tabLinks, 
+    .navTabs .navTab.selected .tabLinks a {
+      background: none #939298;
+      background-color: #939298;
+      color: #222222;
+      text-shadow: none;
+    }
+
+    .navTabs .navTab.selected .tabLinks {
+      top: 26px;
+    }
+
+  /* Breadcrumb */
+    /* Arrows */
+    .breadcrumb .crust .arrow {
+      border-left-color: #BBBBBB;
+    } 
+
+    .breadcrumb .crust .arrow span {
+      border: 12px solid #BBBBBB; /**/
+      border-left-color: #939298;
+    }
+
+
+  /* Quick search bar */
+    /* Colours */
+    #QuickSearch {
+      top: -30px;
+      right: 0;
+    }
+
+    #QuickSearch, 
+    .formPopup {
+      background: none;
+    }
+
+    .textCtrl {
+      border: 1px solid #BBBBBB;
+      background-color: #F5F5F5;
+    }
+
+/* --- POST BOX --- */
+
+/* Post box */
+  .messageList .message, .messageContent, .messageContent article blockquote.messageText {
+    color: #222222;
+    background-color: #F5F5F5;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 16px;
+    line-height: 26px;
+    border: none;
+  }
+
+  .messageList .message {
+    border-radius: 0;
+      -webkit-border-radius: 0;
+      -moz-border-radius: 0;
+      -khtml-border-radius: 0;
+
+    border-bottom: 2px solid #939298;
+  }
+
+/* Post controls */
+  .messageMeta {
+    color: #222;
+    background-color: #F5F5F5;
+  }
+
+/* Post meta box */
+  .messageUserBlock {
+    background-color: #BBBBBB;
+    border: 1px solid #BBBBBB;
+  }
+
+  .messageUserBlock div.avatarHolder {
+    background-color: #939298;
+  }
+
+  a.avatar span.img.m {
+    background-color: #939298;
+    padding: 2px;
+    border: 1px solid #BBBBBB;
+  }
+
+  a.username, a:link.username, a:hover.username {
+    color: #306060;
+  }
+
+  /* Corner arrow */
+    .messageUserBlock .arrow {
+      border-left-color: #BBBBBB;
+    } 
+
+    .messageUserBlock .arrow span {
+      border-left-color: #939298;
+    }
